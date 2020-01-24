@@ -8,7 +8,7 @@ A code patcher for Super Mario Maker 1 binaries.
 
 ## Running Smm1Patcher
 Before you run Smm1Patcher, make sure your Super Mario Maker 1 Binary is decompressed by following [this tutorial](https://mariomods.net/thread/878368801-modded-rpx-files).  
-Open the `launcher.py` script included in the package, and choose your binary.  
+Open the `launcher.py` script included in the package, and choose your binary or you can use the launch.bat script. 
 Then, call a function to patch code to the binary, like `change_animation_speed(speed_float)` for example.
 
 ## Where do I get help/support?
@@ -20,6 +20,7 @@ Then, call a function to patch code to the binary, like `change_animation_speed(
 ## Who gets credit for this?
 * Mario Possamato for smm1patcher
 * Comex/GRAnimated/Mario Possamato for the patch smm1patcher uses
+* System46 (aka RippedMario or IDev) for contribuing to smm1patcher
 
 ## Can I get the patches by themselves?
 Yes, you can get them [here](https://cdn.discordapp.com/attachments/575903548601270273/670335415470915584/Block.rpx_Patches.txt)
