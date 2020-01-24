@@ -22,4 +22,4 @@ Then, call a function to patch code to the binary, like `change_animation_speed(
 * Comex/GRAnimated/Mario Possamato for the patch smm1patcher uses
 
 ## Can I get the patches by themselves?
-Yes, you can get them [here](https://cdn.discordapp.com/attachments/575903548601270273/669695219805192192/Block.rpx_Patches.txt)
+Yes, you can get them [here](https://cdn.discordapp.com/attachments/575903548601270273/670335415470915584/Block.rpx_Patches.txt)
