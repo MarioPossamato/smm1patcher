@@ -5,6 +5,15 @@ from ctypes import *
 def float_to_hex(f):
     return hex(struct.unpack('<I', struct.pack('<f', f))[0])
 
+def double_to_hex(f):
+    return hex(struct.unpack('<Q', struct.pack('<d', f))[0])
+
+def convert(s):
+    i = int(s, 16)
+    cp = pointer(c_int(i))
+    fp = cast(cp, POINTER(c_float))
+    return fp.contents.value
+
 main_binary = sys.argv[1]
 
 def change_animation_speed(speed_float):
@@ -138,15 +147,3 @@ def change_throw_speed_upward(speed_float):
             with open(main_binary,'wb') as smm1binary:
                 smm1binary.write(smm1data)
                 print('Successfully Patched ' + str(speed_float) + ' to 0xB11CC!')
-
-def float_to_hex(f):
-    return hex(struct.unpack('<I', struct.pack('<f', f))[0])
-
-def double_to_hex(f):
-    return hex(struct.unpack('<Q', struct.pack('<d', f))[0])
-
-def convert(s):
-    i = int(s, 16)
-    cp = pointer(c_int(i))
-    fp = cast(cp, POINTER(c_float))
-    return fp.contents.value
