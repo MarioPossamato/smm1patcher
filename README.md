@@ -1,16 +1,16 @@
-# Smm1Patcher
+# smm1patcher
 A code patcher for the Super Mario Maker 1 binary.
 
 ## Supported Game Versions
 1.47
 
 ## Pre-Requisites
-[Smm1Patcher](https://github.com/MarioPossamato/smm1patcher/archive/master.zip)  
+[smm1patcher](https://github.com/MarioPossamato/smm1patcher/archive/master.zip)  
 [Wiiurpxtool](https://github.com/0CBH0/wiiurpxtool/releases)  
 [Python 3.7](https://www.python.org/downloads/release/python-370/) installed on your PC
 
-## Running Smm1Patcher
-Before you run Smm1Patcher, make sure your Super Mario Maker 1 Binary is decompressed by following [this tutorial](https://mariomods.net/thread/878368801-modded-rpx-files).  
+## Running smm1patcher
+Before you run smm1patcher, make sure your Super Mario Maker 1 Binary is decompressed by following [this tutorial](https://mariomods.net/thread/878368801-modded-rpx-files).  
 Open the `launcher.py` script included in the package, and choose your binary or you can use the launch.bat script. 
 Then, call a function to patch code to the binary, like `change_animation_speed(speed_float)` for example.
 
