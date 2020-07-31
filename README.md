@@ -26,4 +26,4 @@ Then, call a function to patch code to the binary, like `change_animation_speed(
 * System46 (aka RippedMario or IDev) for contribuing to smm1patcher
 
 ## Can I get the patches by themselves?
-Yes, you can get them [here](https://cdn.discordapp.com/attachments/575903548601270273/676890349851115540/Block.rpx_Patches.txt)
+Yes, you can get them [here](https://cdn.discordapp.com/attachments/575903548601270273/738693388202672138/Block.rpx_Patches.txt)
