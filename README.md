@@ -1,18 +1,16 @@
-# smm1patcher
+# SMM1Patcher
 A code patcher for the Super Mario Maker 1 binary.
 
 ## Supported Game Versions
 1.47
 
 ## Pre-Requisites
-[smm1patcher](https://github.com/MarioPossamato/smm1patcher/archive/master.zip)  
-[Wiiurpxtool](https://github.com/0CBH0/wiiurpxtool/releases)  
+[SMM1Patcher](https://github.com/MarioPossamato/smm1patcher/archive/master.zip)  
+[wiiurpxtool](https://github.com/0CBH0/wiiurpxtool/releases)  
 [Python 3.7](https://www.python.org/downloads/release/python-370/) installed on your PC
 
-## Running smm1patcher
-Before you run smm1patcher, make sure your Super Mario Maker 1 Binary is decompressed by following [this tutorial](https://mariomods.net/thread/878368801-modded-rpx-files).  
-Open the `launcher.py` script included in the package, and choose your binary or you can use the launch.bat script. 
-Then, call a function to patch code to the binary, like `change_animation_speed(speed_float)` for example.
+## Running SMM1Patcher
+Run ```py -i SMM1Patcher.py Block.rpx```
 
 ## Where do I get help/support?
 [My Discord Server](https://discord.gg/8wx8uQF)
@@ -21,9 +19,6 @@ Then, call a function to patch code to the binary, like `change_animation_speed(
 [My Discord Server](https://discord.gg/8wx8uQF)
 
 ## Who gets credit for this?
-* Mario Possamato for smm1patcher
-* Comex/GRAnimated/Mario Possamato for the patch smm1patcher uses
-* System46 (aka RippedMario or IDev) for contribuing to smm1patcher
-
-## Can I get the patches by themselves?
-Yes, you can get them [here](https://cdn.discordapp.com/attachments/575903548601270273/738693388202672138/Block.rpx_Patches.txt)
+* Mario Possamato for SMM1Patcher
+* Comex/Mario Possamato for the patch SMM1Patcher uses
+* System46 (aka RippedMario or IDev) for contribuing to SMM1Patcher
