@@ -9,7 +9,7 @@ A code patcher for the Super Mario Maker 1 binary.
 ## Pre-Requisites
 [SMM1Patcher](https://github.com/MarioPossamato/smm1patcher/archive/master.zip)  
 [wiiurpxtool](https://github.com/0CBH0/wiiurpxtool/releases)  
-[Python 3.7](https://www.python.org/downloads/release/python-370/) installed on your PC  
+[Python 3.7](https://www.python.org/downloads/release/python-370/) installed on your computer  
 PyQt5: `pip install PyQt5`
 
 ## Running SMM1Patcher
